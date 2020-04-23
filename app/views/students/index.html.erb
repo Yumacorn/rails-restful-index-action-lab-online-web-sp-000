@@ -1,2 +1,4 @@
 <!-- <h1>Welcome to the Index</h1> -->
-<p>Hi<%= @list%></p>
+<% @list.each do |name| %>
+  <p><%= name%>
+<% end %>
